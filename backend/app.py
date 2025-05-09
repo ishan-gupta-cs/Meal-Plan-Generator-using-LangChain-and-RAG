@@ -9,7 +9,7 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-genai.configure(api_key="AIzaSyAnA6QwTXIgzI0nXvGJP9Tk2JQxD0PCooo")
+genai.configure(api_key="")
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
